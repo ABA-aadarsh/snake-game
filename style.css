@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    /* padding: 0px 16px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3%;
+    /* background-color: rgba(91, 123, 183, 0.92); */
+}
+.heading{
+    width: 100%;
+    padding: 10px 6px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    background-color: blueviolet;
+}
+.heading .content{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+#canvas{
+    background-color: blue;
+    padding:5px 6px;
+}
